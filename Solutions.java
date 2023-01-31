@@ -36,10 +36,23 @@ public class Solutions {
         
     }
     public static boolean majority(boolean a, boolean b, boolean c){
-        
+        /* 
+        if (a && b && !c || a && !b && c || !a && b && c){
+            return true;
+        }if (!a || !b || !c){
+            return false;    
+        }else{
+            return true;
+        }
+        */
+    
+    }
+
+    public static double trigIdentity(double x){
+        return (Math.pow(Math.sin(x),2) + Math.pow(Math.cos(x),2));
     }
 
     public static void main(String[] args) {
-        System.out.println(odd(false, false, false));
+        System.out.println(majority(true, false, true));
     }
 }
