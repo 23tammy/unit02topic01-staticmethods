@@ -45,7 +45,7 @@ public class Solutions {
             return true;
         }
         */
-    
+        return (a && b && !c || a && !b && c || !a && b && c || a && b && c);
     }
 
     public static double trigIdentity(double x){
@@ -53,6 +53,6 @@ public class Solutions {
     }
 
     public static void main(String[] args) {
-        System.out.println(majority(true, false, true));
+        System.out.println(majority(true, true, true));
     }
 }
