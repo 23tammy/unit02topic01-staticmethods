@@ -44,7 +44,7 @@ public class Solutions {
         }else{
             return true;
         }
-        */
+        without ifs challenge vv (( I realized I could've shortened this a bit, but that was only after looking at keaton's solution and now I'm too bitter to change it))*/
         return (a && b && !c || a && !b && c || !a && b && c || a && b && c);
     }
 
