@@ -45,6 +45,7 @@ public class Solutions {
             return true;
         }
         without ifs challenge vv (( I realized I could've shortened this a bit, but that was only after looking at keaton's solution and now I'm too bitter to change it))*/
+        // haha, thanks for the note
         return (a && b && !c || a && !b && c || !a && b && c || a && b && c);
     }
 
@@ -56,3 +57,4 @@ public class Solutions {
         System.out.println(majority(true, true, true));
     }
 }
+// good work
